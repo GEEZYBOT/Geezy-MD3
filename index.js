@@ -1,6 +1,6 @@
 //══════════════════════════//
 //  © 2022 GeezyBotz
-//Thank you tord Buddha, Family and Myself
+//Thank you , Family and Myself
 //══════════════════════════/
 
 require("./config.js")
@@ -48,7 +48,7 @@ console.log(color('Hendraa','mediumseagreen'))
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['/','Safari','1.0.0'],
+        browser: ['/','Chrome','1.0.0'],
         auth: state,
         version
     })
